@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 18</title>
+    <style>
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #000;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            vertical-align: middle;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 50px;
+        }
+        .small-text {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <table summary="Tabla comparativa de las características técnicas de los reproductores MP3">
+        <caption>Tabla comparativa de las características técnicas de los reproductores MP3</caption>
+        <thead>
+            <tr>
+                <th scope="col">Características</th>
+                <th scope="col" colspan="3">
+                    <img src="mp3_pequeno_blanco.png" alt="MP3 mini"><br>
+                    MP3 mini
+                </th>
+                <th scope="col" colspan="2">
+                    <img src="mp3_grande_blanco.png" alt="MP3 grande"><br>
+                    MP3 grande
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Capacidad de almacenamiento</th>
+                <td>4GB (1.000 canciones)</td>
+                <td>8GB (2.000 canciones)</td>
+                <td>16GB (4.000 canciones)</td>
+                <td>30GB (7.500 canciones)</td>
+                <td>80GB (20.000 canciones)</td>
+            </tr>
+            <tr>
+                <th scope="row">Colores</th>
+                <td colspan="3">
+                    <img src="color_negro.png" alt="Negro">
+                    <img src="color_rosa.png" alt="Rosa">
+                    <img src="color_verde.png" alt="Verde">
+                    <img src="color_blanco.png" alt="Blanco">
+                </td>
+                <td colspan="2">
+                    <img src="color_negro.png" alt="Negro">
+                    <img src="color_blanco.png" alt="Blanco">
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Pantalla</th>
+                <td colspan="3">LCD de 3 cm (diagonal) con retroiluminación</td>
+                <td colspan="2">LCD de 6 cm (diagonal) con retroiluminación</td>
+            </tr>
+            <tr>
+                <th scope="row">Tiempo de carga</th>
+                <td colspan="3">Unas 3 horas</td>
+                <td colspan="2">
+                    Unas 4 horas<br>
+                    <span class="small-text">Unas 2 horas para alcanzar el 80% de la capacidad</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
