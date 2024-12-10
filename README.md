@@ -7,7 +7,8 @@ Ejercicio | Descripción
 [Ejercicio 2](tema1/Pruebas.xml) | Documento xml que incluya información sobre un par de libros de una biblioteca
 
 ## Ejercicios HTML
-
+Ejercicio |
+----------|
 [Ejercicio 1](ejercicios_llmm/ejercicio_1.html)
 [Ejercicio 2](ejercicios_llmm/ejercicio_2.html)
 [Ejercicio 3](ejercicios_llmm/ejercicio_3.html)
