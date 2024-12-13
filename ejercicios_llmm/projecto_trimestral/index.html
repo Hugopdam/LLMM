@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web4U - Aprende HTML, SVG y CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .thumbnail {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            gap: 200px;
+        }
+        .thumbnail div {
+            text-align: center;
+            width: 150px;
+        }
+        .thumbnail img {
+            max-width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto; /* Empuja el footer hacia abajo */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Web4U</h1>
+        <p>Aprende sobre HTML, SVG y CSS con ejemplos y enlaces útiles.</p>
+    </header>
+    <nav>
+        <a href="html.html" title="Ir a la sección de HTML">HTML</a>
+        <a href="svg.html" title="Ir a la sección de SVG">SVG</a>
+        <a href="css.html" title="Ir a la sección de CSS">CSS</a>
+    </nav>
+    <div class="content">
+        <h2>Explora las tecnologías:</h2>
+        <div class="thumbnail">
+            <div>
+                <a href="html.html" title="Más sobre HTML">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png" alt="Miniatura de HTML">
+                </a>
+                <p>HTML</p>
+            </div>
+            <div>
+                <a href="svg.html" title="Más sobre SVG">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/SVG_Logo.svg/2048px-SVG_Logo.svg.png" alt="Miniatura de SVG">
+                </a>
+                <p>SVG</p>
+            </div>
+            <div>
+                <a href="css.html" title="Más sobre CSS">
+                    <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="Miniatura de CSS">
+                </a>
+                <p>CSS</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Web4U - Aprende y crea con HTML, SVG y CSS</p>
+    </footer>
+</body>
+</html>
