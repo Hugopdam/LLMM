@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Web4U</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline styles for live previews */
+        .preview-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #f9f9f9;
+        }
+        .colored-text {
+            color: red;
+        }
+        .centered-box {
+            text-align: center;
+            padding: 20px;
+            background-color: lightblue;
+            border-radius: 5px;
+        }
+        .hover-effect {
+            color: black;
+            transition: color 0.3s ease;
+        }
+        .hover-effect:hover {
+            color: green;
+        }
+        .shadow-box {
+            width: 150px;
+            height: 150px;
+            background-color: lightcoral;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        .gradient-box {
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(to right, red, yellow, green);
+            border: 1px solid #ddd;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS - Examples and References</h1>
+        <nav>
+            <a href="index.html" title="Back to Home">Home</a>
+        </nav>
+    </header>
+    <div class="content">
+        <h2>Example 1: Changing Text Color</h2>
+        <p>This example shows how to change the color of text using the `color` property in CSS.</p>
+        <pre>
+/* CSS */
+.colored-text {
+    color: red;
+}
+        </pre>
+        <h3>Preview:</h3>
+        <div class="preview-box">
+            <p class="colored-text">This text is red!</p>
+        </div>
+
+        <h2>Example 2: Centering Text and Styling a Box</h2>
+        <p>This example demonstrates how to center text within a box and apply background color and border radius.</p>
+        <pre>
+/* CSS */
+.centered-box {
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+        </pre>
+        <h3>Preview:</h3>
+        <div class="preview-box centered-box">
+            Centered content inside a styled box.
+        </div>
+
+        <h2>Example 3: Adding a Hover Effect</h2>
+        <p>This example applies a hover effect that changes the text color when you hover over it.</p>
+        <pre>
+/* CSS */
+.hover-effect {
+    color: black;
+    transition: color 0.3s ease;
+}
+.hover-effect:hover {
+    color: green;
+}
+        </pre>
+        <h3>Preview:</h3>
+        <div class="preview-box">
+            <p class="hover-effect">Hover over this text to see the color change!</p>
+        </div>
+
+        <h2>Example 4: Adding a Shadow to a Box</h2>
+        <p>This example demonstrates how to add a shadow to a box using the `box-shadow` property.</p>
+        <pre>
+/* CSS */
+.shadow-box {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+        </pre>
+        <h3>Preview:</h3>
+        <div class="preview-box">
+            <div class="shadow-box"></div>
+        </div>
+
+        <h2>Example 5: Creating a Gradient Background</h2>
+        <p>This example demonstrates how to use the `linear-gradient` property to create a gradient background.</p>
+        <pre>
+/* CSS */
+.gradient-box {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, red, yellow, green);
+    border: 1px solid #ddd;
+}
+        </pre>
+        <h3>Preview:</h3>
+        <div class="preview-box">
+            <div class="gradient-box"></div>
+        </div>
+
+        <p>For more information, visit 
+            <a href="https://www.w3schools.com/css/" target="_blank" title="Link to W3Schools about CSS">W3Schools</a>.
+        </p>
+    </div>
+    <footer style="background-color: #4CAF50;">
+        <p>&copy; 2024 Web4U</p>
+        <a href="#top" class="back-to-top" title="Go back to the top">Back to Top</a>
+    </footer>
+</body>
+</html>
