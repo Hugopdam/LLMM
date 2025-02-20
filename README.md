@@ -32,3 +32,9 @@ Ejercicio |
 [Ejercicio 21](ejercicios_llmm/ejercicio_21.html)
 [Proyecto Trimestral](ejercicios_llmm/projecto_trimestral)
 Enlace al proyecto trimestral del 1º trimestre: https://shimmering-caramel-f6779e.netlify.app/
+
+## 2º Trimestre
+Ejercicio |
+----------|
+[Proyecto de boostrap](ejercicios_llmm/ejercicio_1.html)
+Enlace al proyecto de boostrap: https://proyectoboostraphugppdam.netlify.app/
