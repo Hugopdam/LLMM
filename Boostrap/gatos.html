@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gatos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body { background-color: #87CEEB; color: #333; }
+        .navbar { background-color: #4682B4 !important; }
+        .container { max-width: 900px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mascotas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="perros.html">Perros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gatos.html">Gatos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aves.html">Aves</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <h1>Gatos</h1>
+        <p>Los gatos son mascotas independientes y limpias. Son conocidos por su agilidad y comportamiento curioso.</p>
+        <h2>Características</h2>
+        <ul>
+            <li>Independientes y autosuficientes</li>
+            <li>Requieren menos espacio que los perros</li>
+            <li>Pueden vivir en interiores sin problema</li>
+        </ul>
+        <h2>Ventajas</h2>
+        <ul>
+            <li>No necesitan paseos diarios</li>
+            <li>Son silenciosos</li>
+            <li>Se adaptan fácilmente a distintos entornos</li>
+        </ul>
+        <h2>Desventajas</h2>
+        <ul>
+            <li>Pueden ser ariscos</li>
+            <li>Algunos requieren mucho mantenimiento de su pelaje</li>
+            <li>Pueden arañar muebles</li>
+        </ul>
+        <h2>Fotos</h2>
+        <img src="data:image/jpeg;base64,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" width="300" height="200" alt="Gato 1">
+        <img src="https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2024/01/26/gatito-gato-gsc1.jpeg" width="300" height="200" alt="Gato 2">
+    </div>
+</body>
+</html>
