@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Adaptativa</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .main {
+            flex: 70%;
+            padding: 20px;
+        }
+
+        .sidebar {
+            flex: 30%;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+
+        @media (max-width: 800px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Mi Sitio Web Adaptativo</h1>
+        <p>Este es un ejemplo de sitio web adaptativo usando Media Queries.</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </div>
+
+    <div class="row">
+        <div class="main">
+            <h2>Artículo Principal</h2>
+            <p>Este es el contenido principal de la página. Puedes escribir sobre cualquier tema que desees y agregar imágenes, videos o cualquier otro elemento que necesites mostrar.</p>
+        </div>
+        
+        <div class="sidebar">
+            <h2>Barra Lateral</h2>
+            <p>Esta es la barra lateral. Aquí puedes colocar enlaces adicionales, anuncios o cualquier información relevante que complementa el contenido principal.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Pie de Página - Todos los derechos reservados &copy; 2025</p>
+    </div>
+
+</body>
+</html>
