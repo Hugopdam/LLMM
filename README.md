@@ -37,4 +37,17 @@ Enlace al proyecto trimestral del 1º trimestre: https://shimmering-caramel-f677
 Ejercicio |
 ----------|
 [Proyecto de boostrap](Boostrap)
+[Ejercicio 1](css/ejercicio1.html)
+[Ejercicio 2](css/ejercicio2.html)
+[Ejercicio 3](css/ejercicio3.html)
+[Ejercicio 4](css/ejercicio4.html)
+[Ejercicio 5](css/ejercicio5.html)
+[Ejercicio 6](css/ejercicio6.html)
+[Ejercicio 7](css/ejercicio7.html)
+[Ejercicio 8](css/ejercicio8.html)
+[Ejercicio 10-1](css/ejercicio101.html)
+[Ejercicio 10-2](css/ejercicio102.html)
+[Ejercicio 10-3](css/ejercicio103.html)
+[Ejercicio 11](css/ejercicio11.html)
+[Ejercicio 12](css/ejercicio12.html)
 Enlace al proyecto de boostrap: https://proyectoboostraphugppdam.netlify.app/
