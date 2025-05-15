@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test SYSTEM "dtd.dtd">
+<test>
+  <question id="1">
+    <wording>Who says "Luces fuera!"?</wording>
+    <choices>
+      <choice>Reinhardt</choice>
+      <choice correct="yes">Sombra</choice>
+      <choice>Mei</choice>
+      <choice>Tracer</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>Which hero shouts "Justice rains from above!"?</wording>
+    <choices>
+      <choice>Soldier: 76</choice>
+      <choice>Genji</choice>
+      <choice correct="yes">Pharah</choice>
+      <choice>Zenyatta</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>Who uses the phrase "Meteor strike!"?</wording>
+    <choices>
+      <choice>Orisa</choice>
+      <choice>Bastion</choice>
+      <choice>Symmetra</choice>
+      <choice correct="yes">Doomfist</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>Who says "Die, die, die!"?</wording>
+    <choices>
+      <choice>Soldier: 76</choice>
+      <choice correct="yes">Reaper</choice>
+      <choice>Pharah</choice>
+      <choice>Hanzo</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>Who says "Hammer down!"?</wording>
+    <choices>
+      <choice>Widowmaker</choice>
+      <choice correct="yes">Reinhardt</choice>
+      <choice>Roadhog</choice>
+      <choice>Zarya</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>Which hero says "Tactical visor activated !"?</wording>
+    <choices>
+      <choice>Mei</choice>
+      <choice>Genji</choice>
+      <choice correct="yes">Soldier: 76</choice>
+      <choice>Winston</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>Who says "Experience tranquility!"?</wording>
+    <choices>
+      <choice>Bastion</choice>
+      <choice>Sombra</choice>
+      <choice>Lucio</choice>
+      <choice correct="yes">Zenyatta</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>Who says "Gotcha!"?</wording>
+    <choices>
+      <choice>Genji</choice>
+      <choice>Orisa</choice>
+      <choice correct="yes">Tracer</choice>
+      <choice>Soldier: 76</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>Who says "Nerf this!"?</wording>
+    <choices>
+      <choice>Mei</choice>
+      <choice>Reaper</choice>
+      <choice correct="yes">D.Va</choice>
+      <choice>Reinhardt</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>Who says "Ladies and gentlemen, start your engines!"?</wording>
+    <choices>
+      <choice>Lucio</choice>
+      <choice>Symmetra</choice>
+      <choice correct="yes">Junkrat</choice>
+      <choice>Roadhog</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>Who says "Freeze! Don't move!"?</wording>
+    <choices>
+      <choice>Winston</choice>
+      <choice correct="yes">Mei</choice>
+      <choice>Mercy</choice>
+      <choice>Bastion</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>Who says "Surrender to my will!"?</wording>
+    <choices>
+      <choice>Sombra</choice>
+      <choice>Genji</choice>
+      <choice correct="yes">Moira</choice>
+      <choice>Soldier: 76</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>Who says "What is that melody?!"?</wording>
+    <choices>
+      <choice>Hanzo</choice>
+      <choice>Genji</choice>
+      <choice>Reinhardt</choice>
+      <choice correct="yes">Sigma</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>Who says "Let the dragon consume you!"?</wording>
+    <choices>
+      <choice>Widowmaker</choice>
+      <choice correct="yes">Hanzo</choice>
+      <choice>Genji</choice>
+      <choice>Soldier: 76</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>Who says "Cease your resistance!"?</wording>
+    <choices>
+      <choice>Reinhardt</choice>
+      <choice>Roadhog</choice>
+      <choice correct="yes">Orisa</choice>
+      <choice>Zarya</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>Who says "*roar*"?</wording>
+    <choices>
+      <choice>Lucio</choice>
+      <choice>Soldier: 76</choice>
+      <choice correct="yes">Winston</choice>
+      <choice>Mei</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>Who says "Fire at will!"?</wording>
+    <choices>
+      <choice>Symmetra</choice>
+      <choice correct="yes">Zarya</choice>
+      <choice>Moira</choice>
+      <choice>Hanzo</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>Who says "Oh, let's break it down!"?</wording>
+    <choices>
+      <choice>Junkrat</choice>
+      <choice>D.Va</choice>
+      <choice>Genji</choice>
+      <choice correct="yes">Lucio</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>Who says "The dragon becomes me!"?</wording>
+    <choices>
+      <choice>Hanzo</choice>
+      <choice correct="yes">Genji</choice>
+      <choice>Zenyatta</choice>
+      <choice>Tracer</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>Who says "Duplication initiated!"?</wording>
+    <choices>
+      <choice>Mei</choice>
+      <choice>Winston</choice>
+      <choice correct="yes">Echo</choice>
+      <choice>Orisa</choice>
+    </choices>
+  </question>
+</test>

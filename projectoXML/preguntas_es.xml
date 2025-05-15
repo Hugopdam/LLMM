@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test SYSTEM "dtd.dtd">
+<test>
+  <question id="1">
+    <wording>¿Quién dice "¡Luces fuera!"?</wording>
+    <choices>
+      <choice correct="yes">Sombra</choice>
+      <choice>Reinhardt</choice>
+      <choice>Mei</choice>
+      <choice>Tracer</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>¿Qué héroe grita "¡La justicia lleuve del cielo!"?</wording>
+    <choices>
+      <choice>Soldado: 76</choice>
+      <choice>Genji</choice>  
+      <choice correct="yes">Pharah</choice>
+      <choice>Zenyatta</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>¿Quién usa la frase "¡Meteoro!"?</wording>
+    <choices>
+      <choice correct="yes">Doomfist</choice>
+      <choice>Orisa</choice>
+      <choice>Bastion</choice>
+      <choice>Symmetra</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>¿Quién dice "¡Morid, morid, morid!"?</wording>
+    <choices>
+      <choice>Soldado: 76</choice>
+      <choice>Pharah</choice>
+      <choice>Hanzo</choice>
+      <choice correct="yes">Reaper</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>¿Quién dice "¡Martillo va!"?</wording>
+    <choices>
+      <choice>Widowmaker</choice>
+      <choice correct="yes">Reinhardt</choice>
+      <choice>Zarya</choice>
+      <choice>Roadhog</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>¿Qué héroe dice "¡Visor táctico activado!"?</wording>
+    <choices>
+      <choice>Genji</choice>
+      <choice>Mei</choice>
+      <choice correct="yes">Soldado: 76</choice>
+      <choice>Winston</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>¿Quién dice "¡La tranquilidad os envuelve!"?</wording>
+    <choices>
+      <choice>Bastion</choice>
+      <choice>Lucio</choice>
+      <choice correct="yes">Zenyatta</choice>
+      <choice>Sombra</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>¿Quién dice "¡Pilla eso!"?</wording>
+    <choices>
+      <choice>Genji</choice>
+      <choice correct="yes">Tracer</choice>
+      <choice>Orisa</choice>
+      <choice>Soldado: 76</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>¿Quién dice "Nerfea esto!"?</wording>
+    <choices>
+      <choice>Reaper</choice>
+      <choice>Mei</choice>
+      <choice correct="yes">D.Va</choice>
+      <choice>Reinhardt</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>¿Quién dice "¡Damas y caballeros, enciendan sus motores!"?</wording>
+    <choices>
+      <choice>Symmetra</choice>
+      <choice>Lucio</choice>
+      <choice correct="yes">Junkrat</choice>
+      <choice>Roadhog</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>¿Quién dice "¡Esto les va a dejar helados!"?</wording>
+    <choices>
+      <choice>Mercy</choice>
+      <choice correct="yes">Mei</choice>
+      <choice>Winston</choice>
+      <choice>Bastion</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>¿Quién dice "Rendios ante mi poder!"?</wording>
+    <choices>
+      <choice>Genji</choice>
+      <choice>Sombra</choice>
+      <choice correct="yes">Moira</choice>
+      <choice>Soldado: 76</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>¿Quién dice "¡Que es esa melodía!"?</wording>
+    <choices>
+      <choice>Hanzo</choice>
+      <choice>Genji</choice>
+      <choice correct="yes">Sigma</choice>
+      <choice>Reinhardt</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>¿Quién dice "¡Deja que el dragon te consuma!"?</wording>
+    <choices>
+      <choice>Genji</choice>
+      <choice>Widowmaker</choice>
+      <choice>Soldado: 76</choice>
+      <choice correct="yes">Hanzo</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>¿Quién dice "¡No os resistais!"?</wording>
+    <choices>
+      <choice>Roadhog</choice>
+      <choice correct="yes">Orisa</choice>
+      <choice>Reinhardt</choice>
+      <choice>Zarya</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>¿Quién dice "¡*rugido*!"?</wording>
+    <choices>
+      <choice>Mei</choice>
+      <choice>Lucio</choice>
+      <choice correct="yes">Winston</choice>
+      <choice>Soldado: 76</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>¿Quién dice "¡Fuego a discreción!"?</wording>
+    <choices>
+      <choice>Symmetra</choice>
+      <choice correct="yes">Zarya</choice>
+      <choice>Moira</choice>
+      <choice>Hanzo</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>¿Quién dice "¡A quemar la pista!"?</wording>
+    <choices>
+      <choice>Genji</choice>
+      <choice>Junkrat</choice>
+      <choice>D.Va</choice>
+      <choice correct="yes">Lucio</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>¿Quién dice "¡Probad el acero del dios dragón!"?</wording>
+    <choices>
+      <choice>Hanzo</choice>
+      <choice>Zenyatta</choice>
+      <choice correct="yes">Genji</choice>
+      <choice>Tracer</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>¿Quién dice "¡Duplicación iniciada!"?</wording>
+    <choices>
+      <choice>Mei</choice>
+      <choice>Winston</choice>
+      <choice correct="yes">Echo</choice>
+      <choice>Orisa</choice>
+    </choices>
+  </question>
+</test>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Menú de idioma - Quiz Overwatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="menu">
+    <h1>Selecciona el idioma / Select Language</h1>
+    <button onclick="seleccionarIdioma('es')">Español</button>
+    <button onclick="seleccionarIdioma('en')">English</button>
+  </div>
+
+  <script>
+    function seleccionarIdioma(idioma) {
+      window.location.href = `quiz.html?lang=${idioma}`;
+    }
+  </script>
+</body>
+</html>
