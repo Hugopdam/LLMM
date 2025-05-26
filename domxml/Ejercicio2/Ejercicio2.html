@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The XMLHttpRequest Object</h2>
+<p id="demo"></p>
+ 
+<script>
+
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function () {
+  const xmlDoc = this.responseXML;
+  const t = xmlDoc.getElementsByTagName("TITLE");
+  const a = xmlDoc.getElementsByTagName("ARTIST");
+  const c = xmlDoc.getElementsByTagName("COMPANY");
+  const p = xmlDoc.getElementsByTagName("PRICE");
+  let txt = "";
+  for (let i = 0; i < t.length; i++) {
+    txt += t[i].textContent + " - ";
+    txt += a[i].textContent + " - ";
+    txt += c[i].textContent + " - ";
+    txt += p[i].textContent + "<br>";
+  }
+
+  document.getElementById("demo").innerHTML = txt;
+};
+
+
+xhttp.open("GET", "musicos.xml", true);
+xhttp.send();
+</script>
+
+</script>
+
+</body>
+</html>
+
