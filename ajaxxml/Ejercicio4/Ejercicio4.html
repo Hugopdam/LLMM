@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Datos del JSON</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+    button {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Datos persona y sus mascotas</h2>
+
+
+<button onclick="mostrarEdad()">Mostrar Edad</button>
+<button onclick="mostrarTipoPrimeraMascota()">Tipo de la primera mascota</button>
+<button onclick="mostrarNombrePrimeraMascota()">Nombre de la primera mascota</button>
+<button onclick="mostrarNumeroMascotas()">Número de mascotas</button>
+<button onclick="mostrarNombresMascotas()">Nombres de todas las mascotas</button>
+<button onclick="mostrarTodosDatos()">Mostrar todos los datos en un párrafo</button>
+<button onclick="mostrarTabla()">Mostrar datos en tabla</button>
+
+
+<p id="resultadoEdad"></p>
+<p id="resultadoTipo"></p>
+<p id="resultadoNombre"></p>
+<p id="resultadoCantidad"></p>
+<p id="resultadoNombres"></p>
+<p id="resultadoParrafo"></p>
+
+<h3>Tabla de Mascotas</h3>
+<table id="tablaMascotas">
+  <tr>
+    <th>Tipo de Animal</th>
+    <th>Nombre</th>
+  </tr>
+</table>
+
+<script src="Ej4.js"></script>
+
+</body>
+</html>

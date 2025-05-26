@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>NASA API</title>
+  <style>
+    #nasaImage {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Imagen del día - NASA</h2>
+
+<button onclick="mostrarFecha()">Mostrar fecha</button><br>
+<button onclick="mostrarExplicacion()">Mostrar explicación</button><br>
+<button onclick="mostrarURL()">Mostrar URL</button><br>
+<button onclick="mostrarImagen()">Mostrar imagen</button><br><br>
+
+<p><strong>Fecha:</strong> <span id="fecha"></span></p>
+<p><strong>Explicación:</strong> <span id="explicacion"></span></p>
+<p><strong>URL:</strong> <a id="url" href="" target="_blank"></a></p>
+
+<img id="nasaImage" src="" alt="Imagen NASA del día">
+
+<script src="Ej5.js"></script>
+
+</body>
+</html>

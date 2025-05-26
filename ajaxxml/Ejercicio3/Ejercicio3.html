@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Fetch a JSON file with XMLHttpRequest</h2>
+<p><strong>Longitud del array:</strong> <span id="length"></span></p>
+
+<table border="1">
+  <thead>
+    <tr><th>Marca</th></tr>
+  </thead>
+  <tbody id="demo"></tbody>
+</table>
+
+<script>
+const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  const myArray = JSON.parse(this.responseText);
+
+  // Longitud
+  document.getElementById("length").textContent = myArray.length;
+
+  // Tabla
+  let output = "";
+  for (let i = 0; i < myArray.length; i++) {
+    output += "<tr><td>" + myArray[i] + "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = output;
+};
+
+xmlhttp.open("GET", "json_demo.txt");
+xmlhttp.send();
+</script>
+
+</body>
+</html>
