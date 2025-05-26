@@ -53,6 +53,7 @@ Ejercicio |
 Enlace al proyecto de boostrap: https://proyectoboostraphugppdam.netlify.app/
 
 ## 3ª Trimestre
+#Ejercicio 1 XML
 
 How should an element with the name test element and the content "This is our first element!" look?
 <test_element>This is our first element!</test_element>
@@ -76,14 +77,22 @@ Ejercicio |
 ----------|
 [ProyectoXML](projectoXML)
 Enlace al proyectoXML: https://overquiz.netlify.app/
-[Java 1](ejerjava/ejercicio1/ejercicio1.html)
-[Java 2](ejerjava/ejercicio2/ejercicio2.html)
-[Java 3](ejerjava/ejercicio3/ejercicio3.html)
-[Java 4](ejerjava/ejercicio4/ejercicio4.html)
-[Java 5](ejerjava/ejercicio5/ejercicio5.html)
-[Java 6](ejerjava/ejercicio6/ejercicio6.html)
-[Java 7](ejerjava/ejercicio7/ejercicio7.html)
-[Java 8](ejerjava/ejercicio8/ejercicio8.html)
-[Java 9](ejerjava/ejercicio9/ejercicio9.html)
-[Java 10](ejerjava/ejercicio10/ejercicio10.html)
+[Java 1](ejerjava/ejercicio1)
+[Java 2](ejerjava/ejercicio2)
+[Java 3](ejerjava/ejercicio3)
+[Java 4](ejerjava/ejercicio4)
+[Java 5](ejerjava/ejercicio5)
+[Java 6](ejerjava/ejercicio6)
+[Java 7](ejerjava/ejercicio7)
+[Java 8](ejerjava/ejercicio8)
+[Java 9](ejerjava/ejercicio9)
+[Java 10](ejerjava/ejercicio10)
 [DOM 1](ejerdom/ejercicio1)
+[DOM 2](ejerdom/ejercicio2)
+[DOM 3](ejerdom/ejercicio3)
+[DOM 4](ejerdom/ejercicio4)
+[XML 2](ejerxml/ejercicio2)
+[XML 3](ejerxml/ejercicio3)
+[XML 4](ejerxml/ejercicio4)
+[XML 5](ejerxml/ejercicio5)
+[XML 6](ejerxml/ejercicio6)
