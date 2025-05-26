@@ -86,3 +86,4 @@ Enlace al proyectoXML: https://overquiz.netlify.app/
 [Java 8](ejerjava/ejercicio8/ejercicio8.html)
 [Java 9](ejerjava/ejercicio9/ejercicio9.html)
 [Java 10](ejerjava/ejercicio10/ejercicio10.html)
+[DOM 1](ejerdom/ejercicio1/ejercicio1.html)
