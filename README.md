@@ -53,6 +53,25 @@ Ejercicio |
 Enlace al proyecto de boostrap: https://proyectoboostraphugppdam.netlify.app/
 
 ## 3ª Trimestre
+
+How should an element with the name test element and the content "This is our first element!" look?
+<test_element>This is our first element!</test_element>
+
+Please show (in xml-syntax) the hierarchy of the element book with the subelements chapters and author.  author has the further subelements name and address.
+<book>
+    <chapters>
+    </chapters>
+    <author>
+        <name>Author Name</name>
+        <address>Author Address</address>
+    </author>
+</book>
+
+How does an element with the name entry which has got 2 attributes: no with the value 24 and date with the value 27.10.2004 look?
+<entry no="24" date="27.10.2004" />
+
+
+
 Ejercicio |
 ----------|
 [ProyectoXML](projectoXML)
