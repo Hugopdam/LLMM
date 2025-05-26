@@ -1,9 +1,6 @@
 1. ¿Cómo son los comentarios en XML? (Sección 2.5)
 En XML, los comentarios se escriben de la siguiente manera:
 
-xml
-Copiar
-Editar
 <!-- Este es un comentario -->
 Según la sección 2.5 de la especificación, un comentario comienza con <!-- y termina con -->. El contenido del comentario no debe contener la secuencia -- (dos guiones consecutivos). Por ejemplo, <!-- Comentario -- con error --> es inválido.
 
