@@ -76,3 +76,13 @@ Ejercicio |
 ----------|
 [ProyectoXML](projectoXML)
 Enlace al proyectoXML: https://overquiz.netlify.app/
+[Java 1](ejerjava/ejercicio1/ejercicio1.html)
+[Java 2](ejerjava/ejercicio2/ejercicio2.html)
+[Java 3](ejerjava/ejercicio3/ejercicio3.html)
+[Java 4](ejerjava/ejercicio4/ejercicio4.html)
+[Java 5](ejerjava/ejercicio5/ejercicio5.html)
+[Java 6](ejerjava/ejercicio6/ejercicio6.html)
+[Java 7](ejerjava/ejercicio7/ejercicio7.html)
+[Java 8](ejerjava/ejercicio8/ejercicio8.html)
+[Java 9](ejerjava/ejercicio9/ejercicio9.html)
+[Java 10](ejerjava/ejercicio10/ejercicio10.html)
