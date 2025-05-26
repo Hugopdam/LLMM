@@ -2,35 +2,36 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Lectura de books.xml</title>
+  <title>Catálogo de libros</title>
   <style>
     button {
-      margin: 5px;
+      margin: 6px;
     }
     table {
+      border: 1px solid #000;
       border-collapse: collapse;
-      margin-top: 10px;
+      margin-top: 15px;
     }
     th, td {
-      border: 1px solid black;
-      padding: 5px 10px;
+      border: 1px solid #000;
+      padding: 6px 12px;
     }
   </style>
 </head>
 <body>
-  <h1>Lectura de books.xml</h1>
+  <h1>Explorador de books.xml</h1>
 
-  <div id="botones">
-    <button onclick="mostrarTitulo1()">1. Título del primer libro</button>
-    <button onclick="mostrarTodosTitulos()">2. Todos los títulos</button>
-    <button onclick="mostrarNumAtributosLibro4()">3. Nº atributos del cuarto libro</button>
-    <button onclick="mostrarValoresAtributosLibro4()">4. Valores atributos libro 4</button>
-    <button onclick="mostrarNumAutoresLibro3()">5. Nº autores del tercer libro</button>
-    <button onclick="mostrarAutoresLibro3()">6. Autores del tercer libro</button>
-    <button onclick="mostrarTabla()">7. Mostrar tabla</button>
-  </div>
+  <section id="controles">
+    <button onclick="verPrimerTitulo()">Título inicial</button>
+    <button onclick="verTodosTitulos()">Listado de títulos</button>
+    <button onclick="atributosLibro()">Atributos del libro 4</button>
+    <button onclick="valoresAtributos()">Valores del libro 4</button>
+    <button onclick="cuentaAutores()">Autores libro 3</button>
+    <button onclick="listarAutores()">Nombres autores libro 3</button>
+    <button onclick="verTabla()">Ver en tabla</button>
+  </section>
 
-  <div id="output"></div>
+  <div id="resultado"></div>
 
   <script src="Ejercicio3.js"></script>
 </body>

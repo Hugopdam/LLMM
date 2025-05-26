@@ -1,37 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información de discos</title>
+</head>
 <body>
+  <h2>Listado de CDs desde XML</h2>
+  <div id="contenido"></div>
 
-<h2>The XMLHttpRequest Object</h2>
-<p id="demo"></p>
- 
-<script>
+  <script>
+    const xhr = new XMLHttpRequest();
+    xhr.onload = function () {
+      const datosXML = this.responseXML;
+      const titulos = datosXML.getElementsByTagName("TITLE");
+      const artistas = datosXML.getElementsByTagName("ARTIST");
+      const sellos = datosXML.getElementsByTagName("COMPANY");
+      const precios = datosXML.getElementsByTagName("PRICE");
 
-const xhttp = new XMLHttpRequest();
-xhttp.onload = function () {
-  const xmlDoc = this.responseXML;
-  const t = xmlDoc.getElementsByTagName("TITLE");
-  const a = xmlDoc.getElementsByTagName("ARTIST");
-  const c = xmlDoc.getElementsByTagName("COMPANY");
-  const p = xmlDoc.getElementsByTagName("PRICE");
-  let txt = "";
-  for (let i = 0; i < t.length; i++) {
-    txt += t[i].textContent + " - ";
-    txt += a[i].textContent + " - ";
-    txt += c[i].textContent + " - ";
-    txt += p[i].textContent + "<br>";
-  }
+      let resultado = "";
+      for (let i = 0; i < titulos.length; i++) {
+        resultado += `<p><strong>${titulos[i].textContent}</strong> / `;
+        resultado += `${artistas[i].textContent} / `;
+        resultado += `${sellos[i].textContent} / `;
+        resultado += `$${precios[i].textContent}</p>`;
+      }
 
-  document.getElementById("demo").innerHTML = txt;
-};
+      document.getElementById("contenido").innerHTML = resultado;
+    };
 
-
-xhttp.open("GET", "musicos.xml", true);
-xhttp.send();
-</script>
-
-</script>
-
+    xhr.open("GET", "musicos.xml", true);
+    xhr.send();
+  </script>
 </body>
 </html>
-
